@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <script>
+      window.env = {
+        SYMBOL_BASE: 'xrp',
+        SYMBOL_QUOTE: 'usdt',
+        EXCHANGE : 'binance',
+        INTERVAL : '1m',
+        MULTIPLER : 10,
+        MiniumQuantity : 5
+      };
+    </script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
